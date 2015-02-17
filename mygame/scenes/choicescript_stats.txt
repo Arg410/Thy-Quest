@@ -1,0 +1,10 @@
+This is a stats screen!
+
+*stat_chart
+  percent HP
+  opposed_pair XP
+    levelup Level Up
+  text Level
+  text coins
+  text attack Attack
+  text magic

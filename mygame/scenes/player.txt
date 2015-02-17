@@ -1,0 +1,15 @@
+*if (XP >= levelup)
+  *set XP - levelup
+  *set level + 1
+  *set levelup * 1.5
+  *set HP 100
+  *set attack + (2 * level)
+  *set magic + (2 * level)
+  You leveled up! Your now level ${level}
+  *set line_break
+What sould we do now?
+*choice
+  #Explore
+    *goto_scene roomchoice
+  #Shop
+    *goto_scene shop
