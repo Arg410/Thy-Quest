@@ -35,7 +35,7 @@
 *create life 3
 *create HP 100
 *create XP 0
-*create levelup 2
+*create levelup 20
 *create attack 5
 *create magic 3
 *create room 0
